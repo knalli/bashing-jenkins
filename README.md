@@ -9,9 +9,15 @@ Just clone the master branch or download the files.
 Each script comes with an internal help view.
 
 
-# Example
+# Examples
 
-	./jenkins-job.sh download latest $ARTIFACT
+	./jenkins-job.sh getBuildNumberFor myproject lastStableBuild
+	Return 42
+	
+	./jenkins-job.sh getBuildNumberFor myproject lastPromotedBuild 2
+	Return 23
+	
+	./jenkins-job.sh downloadArtifact myproject 42 target/webapp.war
 
 
 # More
