@@ -1,0 +1,3 @@
+#!/bin/sh
+export JENKINS_SERVER_URL="http://localhost/jenkins"
+export LOCAL_VERBOSE='yes'
