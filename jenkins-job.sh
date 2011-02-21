@@ -50,7 +50,7 @@ function printHelp(){
 }
 
 function assertSystemRequirements(){
-	if which wget
+	if [[ ! -z "`which wget 2>/dev/null`" ]]
 		then
 		return 0
 	else
