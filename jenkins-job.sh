@@ -150,6 +150,11 @@ if [[ $? != 0 ]]
 	exit 1
 fi
 assertServerIsAvailable
+if [[ $? != 0 ]] 
+	then
+	echo "Error: Server is not available."
+	exit 1
+fi
 
 if [[ "$1" = "getBuildNumberFor" ]]
 	then
