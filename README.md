@@ -11,13 +11,13 @@ Each script comes with an internal help view.
 
 # Examples
 
-	./jenkins-job.sh getBuildNumberFor myproject lastStableBuild
+	./jenkins-job.sh get-build-number myproject lastStableBuild
 	Return 42
 	
-	./jenkins-job.sh getBuildNumberFor myproject lastPromotedBuild 2
+	./jenkins-job.sh get-build-number myproject lastPromotedBuild 2
 	Return 23
 	
-	./jenkins-job.sh downloadArtifact myproject 42 target/webapp.war
+	./jenkins-job.sh download-artifact myproject 42 target/webapp.war
 
 
 # More
