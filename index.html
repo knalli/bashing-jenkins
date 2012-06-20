@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Bashing-jenkins by knalli</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Bashing-jenkins</h1>
+        <p>Small Bash Utility Collection for the Jenkins CI Server</p>
+        <p class="view"><a href="https://github.com/knalli/bashing-jenkins">View the Project on GitHub <small>knalli/bashing-jenkins</small></a></p>
+        <ul>
+          <li><a href="https://github.com/knalli/bashing-jenkins/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/knalli/bashing-jenkins/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/knalli/bashing-jenkins">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Bashing Jenkins</h1>
+
+<p>A small utility collection of bash scripts for the Jenkins CI build server. Feel free to use, feel free to contribute.</p>
+
+<h1>How to use</h1>
+
+<p>Just clone the master branch or download the files.</p>
+
+<p>Each script comes with an internal help view.</p>
+
+<h1>Examples</h1>
+
+<pre><code>./jenkins-job.sh get-build-number myproject lastStableBuild
+Return 42
+
+./jenkins-job.sh get-build-number myproject lastPromotedBuild 2
+Return 23
+
+./jenkins-job.sh download-artifact myproject 42 target/webapp.war
+</code></pre>
+
+<h1>More</h1>
+
+<p>See official Jenkins CI profile on Github: <a href="http://github.com/jenkinsci">http://github.com/jenkinsci</a></p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/knalli">knalli</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
